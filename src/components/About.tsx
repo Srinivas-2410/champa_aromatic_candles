@@ -12,7 +12,7 @@ export default function About() {
         viewport={{ once: true }}
       >
         <Image
-          src="/images/candle1.jpg"
+          src="/images/favicon.jpg"
           alt="About us"
           fill
           className="object-cover rounded-xl shadow-lg"

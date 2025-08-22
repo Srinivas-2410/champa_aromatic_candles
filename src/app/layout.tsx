@@ -11,6 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        {/* Favicon */}
+        <link rel="icon" href="/images/favicon.jpg" /> 
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
