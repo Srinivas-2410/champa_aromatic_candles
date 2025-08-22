@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #f5f1e7;
+  --color-beige: #e7dfd2;
+  --color-soft-brown: #bfa58b;
+  --color-forest-green: #7a8f72;
+}
+
+body {
+  @apply bg-[var(--color-cream)] text-gray-800 antialiased;
+}
